@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="com.cn.stepcounter.AboutActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#80deea"
+        >
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/back"
+            android:padding="5dp"
+            android:onClick="back"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/back"
+            android:text="关于我们"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginRight="72dp"
+            android:textColor="@android:color/white"
+            />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="版本：1.0.1"
+        android:gravity="center"
+        android:textColor="@color/black"
+        />
+
+</LinearLayout>
+<!-- From: file:/E:/app/MyApplication/stepCountermaster/src/main/res/layout/activity_about.xml -->

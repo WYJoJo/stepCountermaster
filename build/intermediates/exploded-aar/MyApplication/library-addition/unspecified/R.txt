@@ -1,0 +1,30 @@
+int anim progress_hint_popup_hide 0x7f040000
+int anim progress_hint_popup_show 0x7f040001
+int attr popupAlwaysShown 0x7f010004
+int attr popupAnimationStyle 0x7f010003
+int attr popupDraggable 0x7f010005
+int attr popupLayout 0x7f010000
+int attr popupOffset 0x7f010001
+int attr popupStyle 0x7f010002
+int attr progressHintStyle 0x7f010006
+int attr seekBarRotation 0x7f010007
+int drawable bg_progress_hint_popup 0x7f020000
+int id CW270 0x7f060002
+int id CW90 0x7f060003
+int id fixed 0x7f060000
+int id follow 0x7f060001
+int layout progress_hint_popup 0x7f030000
+int style ProgressHintPopupAnimation 0x7f050000
+int style Widget_ProgressHint 0x7f050001
+int style Widget_ProgressHintBase 0x7f050002
+int[] styleable ProgressHint { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004, 0x7f010005 }
+int styleable ProgressHint_popupAlwaysShown 4
+int styleable ProgressHint_popupAnimationStyle 3
+int styleable ProgressHint_popupDraggable 5
+int styleable ProgressHint_popupLayout 0
+int styleable ProgressHint_popupOffset 1
+int styleable ProgressHint_popupStyle 2
+int[] styleable Theme { 0x7f010006 }
+int styleable Theme_progressHintStyle 0
+int[] styleable VerticalSeekBar { 0x7f010007 }
+int styleable VerticalSeekBar_seekBarRotation 0

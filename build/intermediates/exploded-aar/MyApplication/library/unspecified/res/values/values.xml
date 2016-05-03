@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressHint"><attr format="reference" name="popupLayout"/><attr format="dimension" name="popupOffset"/><attr format="enum" name="popupStyle"><enum name="follow" value="0"/><enum name="fixed" value="1"/></attr><attr format="reference" name="popupAnimationStyle"/><attr format="boolean" name="popupAlwaysShown"/><attr format="boolean" name="popupDraggable"/></declare-styleable>
+    <declare-styleable name="Theme"><attr format="reference" name="progressHintStyle"/></declare-styleable>
+    <!-- From: file:/E:/app/MyApplication/library/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="ProgressHintPopupAnimation">
+        <item name="@android:windowEnterAnimation">@anim/progress_hint_popup_show</item>
+        <item name="@android:windowExitAnimation">@anim/progress_hint_popup_hide</item>
+    </style>
+    <style name="Widget.ProgressHint" parent="Widget.ProgressHintBase">
+        <item name="popupLayout">@layout/progress_hint_popup</item>
+        <item name="popupStyle">follow</item>
+        <item name="popupAnimationStyle">@style/ProgressHintPopupAnimation</item>
+        <item name="popupOffset">0dp</item>
+        <item name="popupAlwaysShown">false</item>
+        <item name="popupDraggable">true</item>
+    </style>
+    <style name="Widget.ProgressHintBase" parent="android:Widget.Holo.SeekBar"/>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e0f2fe"
+    tools:context="com.cn.stepcounter.MeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#80deea"
+        >
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/back"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/back"
+            android:text="个人资料"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginRight="72dp"
+            android:textColor="@android:color/white"
+            />
+    </RelativeLayout>
+    <widget.CircleImageView2
+        android:id="@+id/iv_head_me"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/head_me"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/text_color"
+        android:layout_margin="16dp"
+        />
+    <TextView
+        android:id="@+id/tv_we_me"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="当前体重"
+        android:layout_marginLeft="130dp"
+        />
+    <TextView
+        android:id="@+id/tv_he_me"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="当前身高"
+        android:layout_marginLeft="130dp"
+        />
+    <TextView
+        android:id="@+id/tv_bmi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="BMI"
+        android:layout_marginLeft="130dp"
+        />
+    <TextView
+        android:id="@+id/tv_health"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="健康状况"
+        android:layout_marginLeft="130dp"
+        />
+
+</LinearLayout>
+<!-- From: file:/E:/app/MyApplication/stepCountermaster/src/main/res/layout/activity_me.xml -->

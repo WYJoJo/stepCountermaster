@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#EE666666" />
+    <corners android:radius="5dp" />
+</shape><!-- From: file:/E:/app/MyApplication/library/src/main/res/drawable/bg_progress_hint_popup.xml --><!-- From: file:/E:/app/MyApplication/stepCountermaster/build/intermediates/exploded-aar/MyApplication/library/unspecified/res/drawable/bg_progress_hint_popup.xml -->
